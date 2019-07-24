@@ -5,7 +5,7 @@
 
     // :: 1.0 Preloader Active Code
       $(document).ready(function(){
-          setTimeout('$("#preload").fadeOut(100)', 1500);
+          setTimeout('$("#preload").fadeOut(100)', 1600);
        
       });
 
