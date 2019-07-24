@@ -4,8 +4,8 @@
     var browserWindow = $(window);
 
     // :: 1.0 Preloader Active Code
-    $(document).ready(function(){
-          setTimeout('$("#preload").fadeOut(100)', 1750);
+      $(document).ready(function(){
+          setTimeout('$("#preload").fadeOut(100)', 1500);
        
       });
 
