@@ -609,6 +609,7 @@ section.cryptos-about-area {
 
 /* :: 7.0 Section-ead-area */
 section.ead-area {
+    height: 810px;
     background-image: url(img/bg-img/fundo-ead.png);
 }
 
