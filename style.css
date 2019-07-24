@@ -14,13 +14,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: #292929;
+  color: #f8f9fa;
   line-height: 1.3;
   font-weight: 600; }
 
 p {
   font-family: "Open Sans", sans-serif;
-  color: #8e8e8e;
+  color: #f8f9fa;
   font-size: 14px;
   line-height: 2;
   font-weight: 500; }
@@ -139,10 +139,13 @@ img {
   z-index: 1;
   max-width: 730px;
   margin-bottom: 90px; }
-  .section-heading h3 {
-    font-size: 48px;
-    margin-bottom: 15px;
-    font-weight: 300; }
+.section-heading h3 {
+  color: #fff!important;
+  font-size: 44px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .section-heading h3 {
         font-size: 42px; } }
@@ -166,8 +169,17 @@ img {
     text-align: left !important; }
   .section-heading.white h3,
   .section-heading.white h5,
-  .section-heading.white p {
-    color: #ffffff; }
+.section-heading.white p {
+  color: #fff;
+}
+
+p.p-crypto-money {
+  color: #FBB03B!important;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: -5px;
+}
 
 /* Preloader */
 #preloader {
@@ -590,80 +602,13 @@ i.fa.fa-user {
     opacity: 1;
     visibility: visible; }
 
-/* :: 7.0 Feature Area CSS */
-.cryptos-feature-area {
-  position: relative;
-  z-index: 1;
-  padding-left: 45px;
-  padding-right: 45px; }
-  @media only screen and (max-width: 767px) {
-    .cryptos-feature-area {
-      padding-left: 0;
-      padding-right: 0; } }
+/* :: 7.0 Section-about-area */
+section.cryptos-about-area {
+    background-image: url(img/bg-img/fundo-sobre.png);
+}
 
-.single-feature-area {
-  position: relative;
-  z-index: 1;
-  padding: 90px 35px;
-  background-color: #eef3f6;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms; }
-  .single-feature-area i {
-    font-size: 80px;
-    display: block;
-    margin-bottom: 50px;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms; }
-  .single-feature-area h3 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .single-feature-area h3 {
-        font-size: 24px; } }
-    @media only screen and (max-width: 767px) {
-      .single-feature-area h3 {
-        font-size: 22px; } }
-  .single-feature-area p {
-    display: block;
-    margin-bottom: 50px;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms; }
-  .single-feature-area .cryptos-btn {
-    background-color: #ffffff; }
-  .single-feature-area.active, .single-feature-area:hover, .single-feature-area:focus {
-    background-color: #ffaf02;
-    box-shadow: 0 5px 70px rgba(0, 0, 0, 0.15); }
-    .single-feature-area.active i,
-    .single-feature-area.active h3,
-    .single-feature-area.active p, .single-feature-area:hover i,
-    .single-feature-area:hover h3,
-    .single-feature-area:hover p, .single-feature-area:focus i,
-    .single-feature-area:focus h3,
-    .single-feature-area:focus p {
-      color: #ffffff; }
-    .single-feature-area.active .cryptos-btn, .single-feature-area:hover .cryptos-btn, .single-feature-area:focus .cryptos-btn {
-      border-bottom-color: #292929; }
-      .single-feature-area.active .cryptos-btn:hover, .single-feature-area:hover .cryptos-btn:hover, .single-feature-area:focus .cryptos-btn:hover {
-        border-bottom-color: #292929;
-        color: #292929; }
-  .single-feature-area.style-2 {
-    padding: 0;
-    background-color: #ffffff; }
-    .single-feature-area.style-2 i {
-      color: #ffaf02; }
-    .single-feature-area.style-2 p {
-      margin-bottom: 0; }
-    .single-feature-area.style-2.active, .single-feature-area.style-2:hover, .single-feature-area.style-2:focus {
-      background-color: #ffffff;
-      box-shadow: none; }
-      .single-feature-area.style-2.active i, .single-feature-area.style-2:hover i, .single-feature-area.style-2:focus i {
-        color: #292929; }
-      .single-feature-area.style-2.active h3, .single-feature-area.style-2:hover h3, .single-feature-area.style-2:focus h3 {
-        color: #ffaf02; }
-      .single-feature-area.style-2.active p, .single-feature-area.style-2:hover p, .single-feature-area.style-2:focus p {
-        color: #292929; }
+
+
 
 /* :: 8.0 Currency Calculator Area CSS */
 .currency-calculator-area {
