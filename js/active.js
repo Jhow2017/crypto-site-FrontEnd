@@ -25,7 +25,7 @@
             margin: 0,
             loop: true,
             nav: true,
-            navText: ['Prev', 'Next'],
+            navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
             dots: true,
             autoplay: true,
             autoplayTimeout: 5000,

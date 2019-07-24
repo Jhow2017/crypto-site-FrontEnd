@@ -1,14 +1,4 @@
-/* [Master Stylesheet v1.0] */
-/* :: :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Open+Sans:400,600,700");
-/* :: 2.0 Import All CSS */
-@import url(css/bootstrap.min.css);
-@import url(css/owl.carousel.min.css);
-@import url(css/animate.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
-@import url(css/custom-icon.css);
-@import url(css/classy-nav.min.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -51,8 +41,11 @@ ol {
   margin: 0; }
   ul li,
   ol li {
-    list-style: none; }
-
+    list-style: none;
+}
+ul li a {
+    font-family: 'Open Sans';
+}
 img {
   height: auto;
   max-width: 100%; }
@@ -107,6 +100,7 @@ img {
   margin-right: 50px !important; }
 
 /* Height */
+
 .height-400 {
   height: 400px !important; }
 
@@ -299,24 +293,24 @@ textarea:focus {
 .cryptos-btn {
   display: inline-block;
   min-width: 150px;
-  height: 54px;
-  background-color: #eef3f6;
-  color: #292929;
-  border: none;
+  height: 40px;
+  color: #fff;
   border-radius: 0;
   padding: 0 30px;
-  font-size: 12px;
-  line-height: 54px;
+  font-size: 13px;
+  line-height: 39px;
   -webkit-transition: all 500ms;
   transition: all 500ms;
-  font-weight: 700;
   text-transform: uppercase;
-  border-bottom: 3px solid #ffaf02; }
-  .cryptos-btn.active, .cryptos-btn:hover, .cryptos-btn:focus {
-    font-size: 12px;
-    font-weight: 700;
-    color: #ffffff;
-    background-color: #292929; }
+  border: 1px solid #fff;
+  }
+.cryptos-btn.active, .cryptos-btn:hover, .cryptos-btn:focus {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  background-color: #ffffff;
+
+}
   .cryptos-btn.btn-2 {
     background-color: #ffaf02;
     border-bottom: 3px solid #292929;
@@ -370,11 +364,12 @@ textarea:focus {
         margin-right: 0; }
       .header-area .top-header .login-faq-earn-money a:hover, .header-area .top-header .login-faq-earn-money a:focus, .header-area .top-header .login-faq-earn-money a.active {
         color: #ffaf02; }
-  .header-area .cryptos-main-menu {
-    position: relative;
-    width: 100%;
-    z-index: 100;
-    height: 125px; }
+.header-area .cryptos-main-menu {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  height: 0;
+}
     @media only screen and (max-width: 767px) {
       .header-area .cryptos-main-menu {
         height: 80px; } }
@@ -389,17 +384,52 @@ textarea:focus {
       @media only screen and (max-width: 767px) {
         .header-area .cryptos-main-menu .classy-navbar {
           height: 80px; } }
-      .header-area .cryptos-main-menu .classy-navbar .classynav ul li a {
-        font-size: 16px;
-        font-weight: 500;
-        text-transform: capitalize; }
-        .header-area .cryptos-main-menu .classy-navbar .classynav ul li a:hover, .header-area .cryptos-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ffaf02; }
-    .header-area .cryptos-main-menu .classynav ul li .dropdown li a,
-    .header-area .cryptos-main-menu .classynav ul li .megamenu li a {
-      font-size: 14px; }
-    .header-area .cryptos-main-menu .classynav .header-newsletter-form {
-      margin-left: 100px; }
+.header-area .cryptos-main-menu .classy-navbar .classynav ul li a {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #E2B354;
+  padding: 0px 10px;
+}
+.header-area .cryptos-main-menu .classy-navbar .classynav ul li a:hover, .header-area .cryptos-main-menu .classy-navbar .classynav ul li a:focus {
+  color: #ffaf02;
+}
+.header-area .cryptos-main-menu .classynav ul li .dropdown li a,
+.header-area .cryptos-main-menu .classynav ul li .megamenu li a {
+  font-size: 14px;
+}
+
+.header-area .cryptos-main-menu .classynav .header-newsletter-form {
+margin-left:30px;
+
+}
+.login-faq-earn-money a {
+  color:#fff;
+  font-size: 12px;
+}
+.login-faq-earn-money {
+  display: inline-block;
+  min-width: 150px;
+  height: 27px;
+  color:#fff;
+  font-size: 12px;
+  border-radius: 15px;
+  padding: 0px 10px;
+  line-height: 27px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  text-transform: uppercase;
+  border: 1px solid #feae01;
+}
+.login-faq-earn-money a:hover,
+.login-faq-earn-money a:focus {
+  color: #ffaf02;
+  font-size: 13px;
+}
+i.fa.fa-user {
+  font-size: 15px;
+  color:#feae01;
+}
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .cryptos-main-menu .classynav .header-newsletter-form {
           margin-left: 30px; } }
@@ -473,14 +503,14 @@ textarea:focus {
 .hero-slides {
   position: relative;
   z-index: 1; }
-  .hero-slides .single-hero-slide {
-    width: 100%;
-    height: 850px;
-    position: relative;
-    z-index: 1;
-    background: #0d104d;
-    background: -webkit-linear-gradient(to right, #0d104d, #28408b);
-    background: linear-gradient(to right, #0d104d, #28408b); }
+  
+.hero-slides .single-hero-slide {
+  width: 100%;
+  height:800px;
+  position: relative;
+  z-index: 1;
+  background: #000000;
+}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .hero-slides .single-hero-slide {
         height: 650px; } }
@@ -491,13 +521,17 @@ textarea:focus {
       .hero-slides .single-hero-slide {
         height: 800px; } }
     .hero-slides .single-hero-slide h2 {
-      font-size: 68px;
+      font-size:32px;
       color: #ffffff;
       margin-bottom: 30px;
       font-weight: 600; }
+      .text-center.button-junteseanos {
+    position: relative;
+    top: -200px;
+}
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-slides .single-hero-slide h2 {
-          font-size: 48px; } }
+          font-size: 33px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .hero-slides .single-hero-slide h2 {
           font-size: 42px; } }
