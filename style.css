@@ -607,6 +607,18 @@ section.cryptos-about-area {
     background-image: url(img/bg-img/fundo-sobre.png);
 }
 
+/* :: 7.0 Section-ead-area */
+section.ead-area {
+    background-image: url(img/bg-img/fundo-ead.png);
+}
+
+.ead-area p span {
+  font-weight: 600;
+  font-style: italic;
+  color: #fbb03b;
+  font-size: 27px;
+  line-height: 2px;
+}
 
 
 
