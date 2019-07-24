@@ -613,110 +613,27 @@ section.cryptos-about-area {
 /* :: 8.0 Currency Calculator Area CSS */
 .currency-calculator-area {
   position: relative;
+  padding: 120px;
   z-index: 1;
+  background-image: linear-gradient(268.61deg, );
   background-attachment: fixed; }
 
-.currency-calculator {
-  position: relative;
-  z-index: 1; }
-  .currency-calculator .calculator-first-part {
-    position: relative;
-    z-index: 30; }
-    .currency-calculator .calculator-first-part form {
-      position: relative;
-      z-index: 10; }
-    .currency-calculator .calculator-first-part input {
-      width: 85px;
-      height: 53px;
-      border: 2px solid #ffaf02;
-      border-radius: 0;
-      margin-right: 12px;
-      background-color: transparent;
-      color: #ffffff;
-      text-align: center;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
-      font-size: 18px; }
-      @media only screen and (max-width: 767px) {
-        .currency-calculator .calculator-first-part input {
-          width: 60px;
-          font-size: 14px;
-          height: 40px;
-          margin-right: 8px; } }
-    .currency-calculator .calculator-first-part select {
-      position: relative;
-      z-index: 10;
-      width: 135px;
-      height: 53px;
-      background-color: #ffffff;
-      border-radius: 0;
-      cursor: pointer;
-      font-family: "Open Sans", sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 52px;
-      border: none;
-      padding: 0 20px; }
-      @media only screen and (max-width: 767px) {
-        .currency-calculator .calculator-first-part select {
-          padding: 0 10px;
-          width: 70px;
-          height: 40px;
-          font-size: 14px; } }
-  .currency-calculator .equal-sign {
-    width: 120px;
-    height: 53px;
-    background-color: transparent;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    color: #ffffff; }
-    @media only screen and (max-width: 767px) {
-      .currency-calculator .equal-sign {
-        width: 40px;
-        height: 40px; } }
-  .currency-calculator .calculator-sec-part {
-    position: relative;
-    z-index: 1; }
-    .currency-calculator .calculator-sec-part input {
-      width: 120px;
-      height: 53px;
-      border: none;
-      border-radius: 0;
-      margin-right: 12px;
-      background-color: #ffffff;
-      color: #292929;
-      text-align: center;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
-      font-size: 18px; }
-      @media only screen and (max-width: 767px) {
-        .currency-calculator .calculator-sec-part input {
-          width: 70px;
-          font-size: 14px;
-          margin-right: 8px;
-          height: 40px; } }
-    .currency-calculator .calculator-sec-part select {
-      position: relative;
-      z-index: 10;
-      width: 135px;
-      height: 53px;
-      background-color: #ffffff;
-      border-radius: 0;
-      cursor: pointer;
-      font-family: "Open Sans", sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 52px;
-      border: none;
-      padding: 0 20px; }
-      @media only screen and (max-width: 767px) {
-        .currency-calculator .calculator-sec-part select {
-          padding: 0 10px;
-          width: 70px;
-          height: 40px;
-          font-size: 14px; } }
+.section-heading h3.mb-4 {
+    font-style: oblique;
+    text-shadow: 3px 2px #ffaf02;
+    font-size: 70px;
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+p.p-junte-se {
+    font-weight:bold;
+    font-style: italic;
+    color: #ffffff;
+    font-size:30px;
+    text-decoration: underline;
+}
+
 
 /* :: 9.0 Blog Area CSS */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
