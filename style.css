@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;}
 
 h1,
 h2,
@@ -183,30 +183,32 @@ p.p-crypto-money {
 
 /* Preloader */
 #preloader {
-  background: #0d104d;
-  background: -webkit-linear-gradient(to right, #0d104d, #28408b);
-  background: linear-gradient(to right, #0d104d, #28408b);
+  background: #000;
+  background: -webkit-linear-gradient(to right, #000000, #242424);
+  background: linear-gradient(to right, #000000, #242424);
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 5000; }
-  #preloader .circle-preloader {
-    display: block;
-    width: 60px;
-    height: 60px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-bottom-color: #ffffff;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    animation: spin 2s infinite linear; }
+  z-index: 5000; 
+}
+#preloader .circle-preloader {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation: spin 2s infinite linear;
+}
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
@@ -626,15 +628,14 @@ section.ead-area {
 /* :: 8.0 Currency Calculator Area CSS */
 .currency-calculator-area {
   position: relative;
-  padding: 120px;
+  padding: 130px;
   z-index: 1;
-  background-image: linear-gradient(268.61deg, );
   background-attachment: fixed; }
 
 .section-heading h3.mb-4 {
     font-style: oblique;
     text-shadow: 3px 2px #ffaf02;
-    font-size: 70px;
+    font-size: 67px;
     -moz-transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
