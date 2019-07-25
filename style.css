@@ -494,6 +494,12 @@ i.fa.fa-user {
 .store-area {
   background:#000;
   padding: 120px;
+  z-index: 999999;
+  background: linear-gradient(to bottom right, #18191e 50%, transparent 50.5%) no-repeat bottom, 
+  /* bottom part */ linear-gradient(0deg, #18191e, #18191e) no-repeat top;
+  color: white;
+  padding-bottom: 3em;
+  background-size: 100% 3em, 100% calc(105% - 5em);
 }
 .store-area .blog_content .blog_item {
   margin-bottom: 30px;
@@ -578,9 +584,8 @@ i.fa.fa-user {
   font-size: 20px;
 }
 .store-area .blog_content .owl-nav {
-  display: block;
+  display: none;
 }
-
 
 /* :: 6.0 Welcome Area CSS */
 .hero-slides {
@@ -680,10 +685,9 @@ section.cryptos-about-area {
 
 /* :: 7.0 Section-ead-area */
 section.ead-area {
-    height: 810px;
+    height:894px;
     background-image: url(img/bg-img/fundo-ead.png);
 }
-
 .ead-area p span {
   font-weight: 600;
   font-style: italic;
@@ -692,14 +696,21 @@ section.ead-area {
   line-height: 2px;
 }
 
-
+@media only screen and (max-width: 767px){
+  .ead-area .about-thumbnail img {
+      position: relative;
+      bottom: 120px;
+  }
+}
 
 /* :: 8.0 Currency Calculator Area CSS */
 .currency-calculator-area {
   position: relative;
   padding: 130px;
-  z-index: 1;
-  background-attachment: fixed; }
+  z-index: -1;
+  top: -41px;
+  background-attachment: fixed; 
+}
 
 .section-heading h3.mb-4 {
     font-style: oblique;
@@ -1027,6 +1038,7 @@ p.p-junte-se {
   background: #0d104d;
   background: -webkit-linear-gradient(to right, #0d104d, #28408b);
   background: linear-gradient(to right, #0d104d, #28408b); }
+ead-area
   @media only screen and (max-width: 767px) {
     .breadcumb-area {
       height: 130px; } }
