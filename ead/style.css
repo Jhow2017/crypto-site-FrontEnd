@@ -3612,7 +3612,7 @@ div#sparklinehome canvas {
     background: #fbb03b;
 }
 .sidebar-nav .metismenu{
-	background: #fff;
+	background: #000;
 }
 .sidebar-nav {
     background: #fff;
@@ -3640,7 +3640,11 @@ div#sparklinehome canvas {
 	overflow:unset;
 }
 .sidebar-nav .metismenu a{
-	color:#8d9498;
+	color:#fff;
+	font-weight: 300;
+}
+.sidebar-nav .metismenu li .icon-wrap {
+    color: #fff;
 }
 .sidebar-nav .metismenu a:hover, .sidebar-nav .metismenu a:focus, .sidebar-nav .metismenu a:active {
     background: #F6F6F6;
@@ -3658,7 +3662,7 @@ div#sparklinehome canvas {
     color: #fff;
 }
 #sidebar {
-    background: #fff;
+    background: #000;
 }
 #sidebar .sidebar-header {
     background: #fbb03b;
@@ -3682,7 +3686,7 @@ div#sparklinehome canvas {
     background-color: #86bc42;
 }
 .footer-copyright-area {
-    background: #006DF0;
+    background: #fbb03b;
 	padding: 20px 0px;
     text-align: center;
 }
@@ -4336,6 +4340,7 @@ div#sparklinehome canvas {
 /*----------------------------------------*/
 .comment-scrollbar, .timeline-scrollbar, .messages-scrollbar, .project-list-scrollbar {
     height: 580px;
+    background: #000;
 }
 .mCSB_outside+.mCSB_scrollTools {
     right: -15px;
