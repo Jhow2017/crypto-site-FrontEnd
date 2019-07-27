@@ -3634,7 +3634,7 @@ div#sparklinehome canvas {
     box-shadow: 0 1px 4px rgba(0,0,0,.175);
 }
 #sidebar.active .sidebar-nav .metismenu a:hover, #sidebar.active .sidebar-nav .metismenu a:focus, #sidebar.active .sidebar-nav .metismenu a:active{
-	background:#F6F8FA;
+	background:#fbb03b;
 }
 #sidebar.active .mCustomScrollBox{
 	overflow:unset;
