@@ -42,9 +42,7 @@ body {}
   font-weight: normal;
   font-style: normal;
 }
-i.fa.fa-home {
-    font-size: 22px;
-}
+
 /*----------------------------------------*/
 /*  2. Helper Class
 /*----------------------------------------*/
@@ -140,7 +138,7 @@ i.fa.fa-home {
 .bar-button-pro {
     margin: 13px 0px;
 	font-size:16px;
-	color:#fff;
+	color:#000;
 }
 #sidebar .sidebar-header strong {
     display: none;
@@ -251,7 +249,7 @@ i.fa.fa-home {
 	border:none;
 }
 .menu-switcher-pro button:hover, .menu-switcher-pro button:focus, .menu-switcher-pro button:active, .menu-switcher-pro button:visited{
-	background: none;
+	background: red;
 	border:none;
 }
 /*----------------------------------------*/
@@ -455,7 +453,7 @@ i.fa.fa-home {
 }
 .header-right-info .admin-name{
 	display: inline-block;
-    color: #fff;
+    color: #000;
     font-size: 16px;
     position: relative;
     top: -2px;
@@ -472,6 +470,24 @@ i.fa.fa-home {
     top: -4px;
 	margin-left:5px;
 }
+i.fa.fa-home {
+    font-size: 22px;
+}
+i.fa.fa-angle-down.edu-icon.edu-down-arrow {
+    color: #000!important;
+    padding-left: 10px;
+}
+.indicator-ms {
+    background: #000!important;
+}
+.indicator-nt {
+    background: #000!important;
+}
+i.educate-icon.educate-message.edu-chat-pro,
+i.educate-icon.educate-bell {
+    color: #000;
+}
+
 .header-right-info .message-author{
    position:relative;
 }
@@ -4293,6 +4309,81 @@ div#sparklinehome canvas {
 .pwstrength_viewport_progress .progress, .pwstrength_viewport_progress2 .progress, .pwstrength_viewport_progress4 .progress, .form-group.mg-b-pass {
 	margin-bottom:0px;
 }
+
+/*Video Rece...*/
+.slider-item{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.slider-item .slider-image img{
+    margin: 0 auto;
+    width: 100%;
+}
+.slider-item .slider-main-detail{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+.slider-item:hover .slider-main-detail{
+    background-color: #dbeeee !important;
+}
+.slider-item .price{
+    float: left;
+    margin-top: 5px;
+}
+.slider-item .price h5{
+    line-height: 20px;
+    margin: 0;
+}
+.detail-price{
+    color: #219FD1;
+}
+.slider-item .slider-main-detail .rating{
+    color: #777;
+}
+.slider-item .rating{
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+.slider-item .btn-add{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #E1E1E1;
+}
+.slider-item .btn-details{
+    width: 50%;
+    float: left;
+}
+.controls{
+    margin-top: 20px;
+}
+.btn-info,.btn-info:visited,.btn-info:hover{
+	background-color: #21BBD8;
+	border-color: #21BBD8;
+}
+.btn-info{
+	margin-left:5px;
+}
+.slider-main-detail:hover{
+	background-color: #dbeeee !important;
+}
+.AddCart{
+	margin: 0px;
+	padding:5px;
+	border-radius:2px;
+	margin-right:10px;
+}
+.review {
+	margin-bottom: 5px;
+	padding-top:5px;
+}
+
+
+
 /*----------------------------------------*/
 /*  19. Mini Sidebar
 /*----------------------------------------*/
