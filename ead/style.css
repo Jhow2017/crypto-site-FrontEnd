@@ -4358,13 +4358,17 @@ div#sparklinehome canvas {
     width: 50%;
     float: left;
 }
-.controls{
-    margin-top: 20px;
+
+.btn-info{
+	background-color: #fbb03b;
+	border-color: #fbb03b;
 }
-.btn-info,.btn-info:visited,.btn-info:hover{
-	background-color: #21BBD8;
-	border-color: #21BBD8;
+ .btn-info:focus,
+ .btn-info:hover{
+	background-color: #000!important;
+	border-color: #000!important;
 }
+
 .btn-info{
 	margin-left:5px;
 }
