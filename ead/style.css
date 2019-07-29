@@ -2337,10 +2337,13 @@ ul.two-part-sp li{
 .waves-cancelar{
 	background:red;
 	border-color:red;
+	font-size: 16px;
+	padding: 10px 17px;
 }
+.waves-cancelar:focus,
 .waves-cancelar:hover{
-	background:red;
-	border-color:red;
+	background:#9a1010!important;
+	border-color:#9a1010!important;
 }
 .product-cart-dn {
     display: none;
