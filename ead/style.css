@@ -1429,17 +1429,18 @@ ul.tab-custon-design, ul.tab-review-design {
 .course-des{
 	margin:10px 0px;
 }
-.product-buttons button{
+.product-buttons button.button-default.cart-btn{
 	border:none;
 	background:#fbb03b;
 	color:#000;
-	padding:8px 12px;
+	padding:10px 15px;
 	border-radius:3px;
 	transition:all .4s ease 0s;
 	font-size:14px;
 }
-.product-buttons button:hover{
-	border:none;
+.product-buttons  button.button-default.cart-btn:focus,
+.product-buttons  button.button-default.cart-btn:hover{
+	border-color:#000!important;
 	background:#000!important;
 	color:#fbb03b;
 }
