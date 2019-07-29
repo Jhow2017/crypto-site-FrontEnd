@@ -1415,6 +1415,9 @@ ul.tab-custon-design, ul.tab-review-design {
 	color:#303030;
 	margin-top: 10px;
 }
+.courses-inner.res-mg-b-30 {
+    padding-bottom: 83px;
+}
 .courses-alaltic .cr-ic-r, .single-item-comment-view .cr-ic-r {
 	margin-right:10px;
 }
@@ -1428,12 +1431,17 @@ ul.tab-custon-design, ul.tab-review-design {
 }
 .product-buttons button{
 	border:none;
-	background:#006DF0;
-	color:#fff;
-	padding:5px 10px;
+	background:#fbb03b;
+	color:#000;
+	padding:8px 12px;
 	border-radius:3px;
 	transition:all .4s ease 0s;
 	font-size:14px;
+}
+.product-buttons button:hover{
+	border:none;
+	background:#000!important;
+	color:#fbb03b;
 }
 #single-product-tab .active img{
 	border:1px solid #e12503;
