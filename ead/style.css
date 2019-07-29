@@ -923,7 +923,7 @@ ul.breadcome-menu li a:hover{
 /*  8. Analytics
 /*----------------------------------------*/
 .payment-inner-pro i{
-	color:#006DF0;
+	color:#fbb03b;
 }
 .income-rate-total h3 {
     color: #303030;
@@ -2290,10 +2290,26 @@ ul.two-part-sp li{
 .payment-adress{
 	text-align:center;
 }
-.payment-adress button{
-	background:#006DF0;
-	border-color:#006DF0;
+.payment-adress button, 
+.payment-adress button, 
+.payment-adress button, 
+.payment-adress button, 
+.credit-card-custom a, 
+.credit-card-custom a, 
+.credit-card-custom a, 
+.credit-card-custom a,
+.waves-light, 
+.waves-light, 
+.waves-light, 
+.waves-light{
+	background:#000!important;
+	border-color:#000!important;
+	outline:none;
+	cursor:pointer;
+	font-size: 16px;
+	padding: 10px 17px;
 }
+
 .payment-adress button:hover, 
 .payment-adress button:focus, 
 .payment-adress button:active, 
@@ -2301,9 +2317,20 @@ ul.two-part-sp li{
 .credit-card-custom a:hover, 
 .credit-card-custom a:focus, 
 .credit-card-custom a:active, 
-.credit-card-custom a:visited, .waves-light:hover, .waves-light:focus, .waves-light:active, .waves-light:visited{
-	background:#006DF0;
-	border-color:#006DF0;
+.credit-card-custom a:visited,
+.waves-light:hover, 
+.waves-light:focus, 
+.waves-light:active, 
+.waves-light:visited{
+	background:#fbb03b!important;
+	border-color:#fbb03b!important;
+	outline:none;
+	cursor:pointer;
+}
+
+.credit-card-custom a:hover{
+	background:#fbb03b!important;
+	border-color:#fbb03b!important;
 	outline:none;
 	cursor:pointer;
 }
