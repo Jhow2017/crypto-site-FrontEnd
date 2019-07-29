@@ -2372,6 +2372,15 @@ ul.two-part-sp li{
     border-radius: 3px;
 	outline:none;
 }
+.product-status-wrap .pd-setting-downalod {
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 15px;
+    background: green;
+    border-radius: 3px;
+	outline:none;
+}
 .asset-inner {
     overflow-y: hidden;
     width: 100%;
