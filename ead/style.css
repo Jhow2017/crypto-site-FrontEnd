@@ -1277,7 +1277,7 @@ ul.tab-custon-design li, ul.tab-review-design li {
     left: 0px;
     width: 0%;
     height: 2px;
-    background: #006DF0;
+    background: #000;
     content: "";
 	transition:all .4s ease 0s;
 }
@@ -1287,12 +1287,12 @@ ul.tab-custon-design li, ul.tab-review-design li {
     left: 0px;
     width: 80%;
     height: 2px;
-    background: #006DF0;
+    background: #000;
     content: "";
 	transition:all .4s ease 0s;
 }
 ul.tab-custon-design li.active a, ul.tab-review-design li.active a {
-    color: #006DF0 !important;
+    color: #000 !important;
 }
 ul.tab-custon-design li a, ul.tab-custon-design li a:hover, ul.tab-custon-design li a:focus, ul.tab-review-design li a, ul.tab-review-design li a:hover, ul.tab-review-design li a:focus {
     font-size: 18px;
@@ -2285,11 +2285,26 @@ ul.two-part-sp li{
 	background:#006DF0;
 	border-color:#006DF0;
 }
-.payment-adress button:hover, .payment-adress button:focus, .payment-adress button:active, .payment-adress button:visited, .credit-card-custom a:hover, .credit-card-custom a:focus, .credit-card-custom a:active, .credit-card-custom a:visited, .waves-light:hover, .waves-light:focus, .waves-light:active, .waves-light:visited{
+.payment-adress button:hover, 
+.payment-adress button:focus, 
+.payment-adress button:active, 
+.payment-adress button:visited, 
+.credit-card-custom a:hover, 
+.credit-card-custom a:focus, 
+.credit-card-custom a:active, 
+.credit-card-custom a:visited, .waves-light:hover, .waves-light:focus, .waves-light:active, .waves-light:visited{
 	background:#006DF0;
 	border-color:#006DF0;
 	outline:none;
 	cursor:pointer;
+}
+.waves-cancelar{
+	background:red;
+	border-color:red;
+}
+.waves-cancelar:hover{
+	background:red;
+	border-color:red;
 }
 .product-cart-dn {
     display: none;
