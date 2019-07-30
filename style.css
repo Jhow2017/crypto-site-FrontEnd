@@ -707,7 +707,7 @@ section.ead-area {
 /* :: 8.0 Currency Calculator Area CSS */
 .currency-calculator-area {
   position: relative;
-  padding: 130px;
+  padding: 130px 0;
   z-index: -1;
   top: -41px;
   background-attachment: fixed; 
@@ -1340,3 +1340,19 @@ form.contact-form .form-group {
     font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
+
+/*Responsividade*/
+
+@media only screen and (min-width: 480px) and (max-width: 992px) {
+  .section-heading h3.mb-4 {
+    font-size: 43px;
+  }
+  .login-faq-earn-money a,
+  .login-faq-earn-money {
+    color: #000!important;
+  }
+  .login-faq-earn-money a:hover, 
+  .login-faq-earn-money:hover {
+    color: #e2b354!important;
+  }
+}
