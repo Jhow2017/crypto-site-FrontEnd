@@ -362,7 +362,8 @@ textarea:focus {
   z-index: 100;
   height: 0;
 }
-    @media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
       .header-area .cryptos-main-menu {
         height: 80px; } }
     .header-area .cryptos-main-menu .classy-nav-container {
@@ -678,95 +679,17 @@ p.card-text {
   position: relative;
   z-index: 1; }
   
-.hero-slides .single-hero-slide {
-  width: 100%;
-  height:800px;
-  position: relative;
-  z-index: 1;
-  background: #000000;
-}
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .hero-slides .single-hero-slide {
-        height: 650px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .hero-slides .single-hero-slide {
-        height: 600px; } }
-    @media only screen and (max-width: 767px) {
-      .hero-slides .single-hero-slide {
-        height: 800px; } }
-    .hero-slides .single-hero-slide h2 {
-      font-size:32px;
-      color: #ffffff;
-      margin-bottom: 30px;
-      font-weight: 600; }
-      .text-center.button-junteseanos {
+.background-video video {
     position: relative;
-    top: -200px;
+    width: 100%;
+    height: auto;
 }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .hero-slides .single-hero-slide h2 {
-          font-size: 33px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .hero-slides .single-hero-slide h2 {
-          font-size: 42px; } }
-      @media only screen and (max-width: 767px) {
-        .hero-slides .single-hero-slide h2 {
-          font-size: 30px; } }
-      .hero-slides .single-hero-slide h2 span {
-        color: #ffaf02; }
-    .hero-slides .single-hero-slide h6 {
-      color: #ffffff;
-      margin-bottom: 60px;
-      line-height: 2;
-      font-weight: 400; }
-    .hero-slides .single-hero-slide .hero-slides-thumb img {
-      width: 100%; }
-      @media only screen and (max-width: 767px) {
-        .hero-slides .single-hero-slide .hero-slides-thumb img {
-          width: 60%;
-          margin: 0 auto; } }
-  .hero-slides .owl-prev,
-  .hero-slides .owl-next {
-    background-color: #eef3f6;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    color: #292929;
-    top: 50%;
-    margin-top: -20px;
-    left: 5%;
-    position: absolute;
-    z-index: 10;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    border-bottom: 2px solid #ffaf02; }
-    @media only screen and (max-width: 767px) {
-      .hero-slides .owl-prev,
-      .hero-slides .owl-next {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        margin-top: -20px; } }
-    .hero-slides .owl-prev:hover, .hero-slides .owl-prev:focus,
-    .hero-slides .owl-next:hover,
-    .hero-slides .owl-next:focus {
-      background-color: #292929;
-      color: #ffaf02; }
-  .hero-slides .owl-next {
-    left: auto;
-    right: 5%; }
-  .hero-slides:hover .owl-prev, .hero-slides:hover .owl-next {
-    opacity: 1;
-    visibility: visible; }
 
 /* :: 7.0 Section-about-area */
 section.cryptos-about-area {
     background-image: url(img/bg-img/fundo-sobre.png);
+    top: -6px;
+    position: relative;
 }
 
 /* :: 7.0 Section-ead-area */

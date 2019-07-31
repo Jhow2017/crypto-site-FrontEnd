@@ -60,10 +60,10 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">HOME</a></li>
-                                    <li><a href="#">SOBRE</a></li>
-                                    <li><a href="contact.html">CRYPTO À DISTANCIA</a></li>
-                                    <li><a href="contact.html">STORE</a></li>
-                                    <li><a href="contact.html">CONTATO</a></li>
+                                    <li><a class="scrollSuave" href="#sobre">SOBRE</a></li>
+                                    <li><a class="scrollSuave" href="#ead">CRYPTO À DISTANCIA</a></li>
+                                    <li><a href="store.html">STORE</a></li>
+                                    <li><a class="scrollSuave" href="#contato">CONTATO</a></li>
                                 </ul>
 
                                 <!-- Newsletter Form -->
@@ -89,61 +89,12 @@
     <!-- ##### Hero Area Start ##### -->
     <section class="hero-area">
         <div class="hero-slides owl-carousel">
-
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-4 col-md-4 offset-md-1">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">APRENDA COM O MELHOR TIME</h2>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-2">
-                            <div class="hero-slides-thumb" data-animation="fadeInUp" data-delay="1000ms">
-                                <img src="img/bg-img/bg-2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-5">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms"><span>DE INVESTIDORES EM CRYPTOMOEDAS</span></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center button-junteseanos">
-                        <div class="about-content mb-100">
-                            <a href="#" class="btn cryptos-btn mt-30">Junte-se à nós</a>
-                        </div>
-                    </div>
-                </div>                
-            </div>
-
-           <!-- Single Hero Slide -->
-            <div class="single-hero-slide">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-4 col-md-4 offset-md-1">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">APRENDA COM O MELHOR TIME</h2>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-2">
-                            <div class="hero-slides-thumb" data-animation="fadeInUp" data-delay="1000ms">
-                                <img src="img/bg-img/bg-2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-5">
-                            <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms"><span>DE INVESTIDORES EM CRYPTOMOEDAS</span></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center button-junteseanos">
-                        <div class="about-content mb-100">
-                            <a href="#" class="btn cryptos-btn mt-30">Junte-se à nós</a>
-                        </div>
-                    </div>
-                </div>                
+            <div class="background-video">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="video-fundo.Ogg" type="video/ogg">
+                    <source src="video-fundo.mp4" type="video/mp4">
+                    <source src="video-fundo.webm" type="video/webm">
+                </video>
             </div>
         </div>
     </section>
@@ -151,7 +102,7 @@
 
 
     <!-- ##### About Area Start ##### -->
-    <section class="cryptos-about-area">
+    <section class="cryptos-about-area" id="sobre">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-30">
@@ -185,7 +136,7 @@
 
 
      <!-- ##### About Area Start ##### -->
-    <section class="ead-area">
+    <section class="ead-area" id="ead">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-100">
@@ -273,10 +224,9 @@
         
 
     <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area section-padding-100-0">
+    <section class="contact-area section-padding-100-0" id="contato">
         <div class="container">
             <div class="row">
-
 
                  <!-- Contact Form Area -->
                 <div class="col-md-10 offset-md-1 contact-form-area">
@@ -380,6 +330,7 @@
     <!-- ##### Footer Area Start ##### -->
 
     <!-- ##### All Javascript Script ##### -->
+    <script src="js/menu-scroll.js"></script>
     <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
