@@ -1139,7 +1139,8 @@ ead-area
 
 /* :: 14.0 Contact Area CSS */
 .contact-area {
-  background:#000;
+  background: url(img/bg-img/footer-fundo.jpg) no-repeat;
+  background-position: bottom;
 }
 h3.h3-crypto-money {
     font-size: 30px;
@@ -1176,7 +1177,7 @@ h3.h3-crypto-money {
   color: #fbb03b;
 }
 .contact-information .single-contact-info p {
-  color: #495057; }
+  color: #ffffff87; }
 
 .contact-form-area .form-control {
   height: 52px;
