@@ -1,6 +1,11 @@
 (function ($) {
  "use strict";
 
+ // :: 1.0 Preloader Active Code
+      $(document).ready(function(){
+          setTimeout('$("#preload").fadeOut(100)', 5300);
+       
+      });
 	/*----------------------------
 	 jQuery MeanMenu
 	------------------------------ */
